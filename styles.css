@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Yekan";
+    src: url(includes/fonts/Yekan.eot);
+    src: url(includes/fonts/Yekan.eot?#iefix) format("embedded-opentype"),
+         url(includes/fonts/Yekan.woff) format("woff"),
+         url(includes/fonts/Yekan.ttf) format("truetype"),
+         url(includes/fonts/Yekan.svg#BYekan) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+* {
+    font-family: Yekan, Tahoma;
+}
+body {
+    position: relative;
+    top:70px;
+}
+.user-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    top: 5px;
+}
+#pass-icon {
+    width: 30px;
+    height: 26px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    left: 3px;
+}
+#confirmpass-icon{
+    width: 30px;
+    height: 26px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    left: 3px; 
+}
+.access {
+    width:15%;
+}

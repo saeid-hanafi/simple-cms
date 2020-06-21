@@ -1,0 +1,636 @@
+[14-Jun-2020 21:38:04 Asia/Tehran] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'saeed'@'localhost' (using password: YES) in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 21:38:04 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/webdes28/public_html/lib/db.php on line 5
+[14-Jun-2020 21:38:04 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/webdes28/public_html/lib/pages.php on line 30
+[14-Jun-2020 21:38:04 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/webdes28/public_html/lib/pages.php:32
+Stack trace:
+#0 /home/webdes28/public_html/lib/pages.php(90): get_page('://web-designer...')
+#1 /home/webdes28/public_html/lib/modules.php(40): page_exists('://web-designer...')
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/lib/pages.php on line 32
+[14-Jun-2020 22:08:27 Asia/Tehran] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/webdes28/public_html/index.php on line 3
+[14-Jun-2020 22:08:27 Asia/Tehran] PHP Warning:  require_once(http://web-designer-center.ir/config.php): failed to open stream: no suitable wrapper could be found in /home/webdes28/public_html/index.php on line 3
+[14-Jun-2020 22:08:27 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required 'http://web-designer-center.ir/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/index.php on line 3
+[14-Jun-2020 22:09:00 Asia/Tehran] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:09:00 Asia/Tehran] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:09:00 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/webdes28/public_html/lib/db.php on line 5
+[14-Jun-2020 22:09:00 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function page_exists() in /home/webdes28/public_html/lib/modules.php:40
+Stack trace:
+#0 /home/webdes28/public_html/index.php(7): load_module()
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/modules.php on line 40
+[14-Jun-2020 22:09:01 Asia/Tehran] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:09:01 Asia/Tehran] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:09:01 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/webdes28/public_html/lib/db.php on line 5
+[14-Jun-2020 22:09:01 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function page_exists() in /home/webdes28/public_html/lib/modules.php:40
+Stack trace:
+#0 /home/webdes28/public_html/index.php(7): load_module()
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/modules.php on line 40
+[14-Jun-2020 22:09:51 Asia/Tehran] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:09:51 Asia/Tehran] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:09:51 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/webdes28/public_html/lib/db.php on line 5
+[14-Jun-2020 22:09:51 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function page_exists() in /home/webdes28/public_html/lib/modules.php:40
+Stack trace:
+#0 /home/webdes28/public_html/index.php(7): load_module()
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/modules.php on line 40
+[14-Jun-2020 22:09:52 Asia/Tehran] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:09:52 Asia/Tehran] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:09:52 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/webdes28/public_html/lib/db.php on line 5
+[14-Jun-2020 22:09:52 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function page_exists() in /home/webdes28/public_html/lib/modules.php:40
+Stack trace:
+#0 /home/webdes28/public_html/index.php(7): load_module()
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/modules.php on line 40
+[14-Jun-2020 22:10:54 Asia/Tehran] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:10:54 Asia/Tehran] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:10:54 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/webdes28/public_html/lib/db.php on line 5
+[14-Jun-2020 22:10:54 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function page_exists() in /home/webdes28/public_html/lib/modules.php:40
+Stack trace:
+#0 /home/webdes28/public_html/index.php(7): load_module()
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/modules.php on line 40
+[14-Jun-2020 22:10:54 Asia/Tehran] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:10:54 Asia/Tehran] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:10:54 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/webdes28/public_html/lib/db.php on line 5
+[14-Jun-2020 22:10:54 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function page_exists() in /home/webdes28/public_html/lib/modules.php:40
+Stack trace:
+#0 /home/webdes28/public_html/index.php(7): load_module()
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/modules.php on line 40
+[14-Jun-2020 22:10:55 Asia/Tehran] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:10:55 Asia/Tehran] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:10:55 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/webdes28/public_html/lib/db.php on line 5
+[14-Jun-2020 22:10:55 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function page_exists() in /home/webdes28/public_html/lib/modules.php:40
+Stack trace:
+#0 /home/webdes28/public_html/index.php(7): load_module()
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/modules.php on line 40
+[14-Jun-2020 22:10:55 Asia/Tehran] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:10:55 Asia/Tehran] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/webdes28/public_html/lib/db.php on line 4
+[14-Jun-2020 22:10:55 Asia/Tehran] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/webdes28/public_html/lib/db.php on line 5
+[14-Jun-2020 22:10:55 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function page_exists() in /home/webdes28/public_html/lib/modules.php:40
+Stack trace:
+#0 /home/webdes28/public_html/index.php(7): load_module()
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/modules.php on line 40
+[14-Jun-2020 22:11:27 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function page_exists() in /home/webdes28/public_html/lib/modules.php:40
+Stack trace:
+#0 /home/webdes28/public_html/index.php(7): load_module()
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/modules.php on line 40
+[14-Jun-2020 22:38:01 Asia/Tehran] PHP Warning:  readfile(templates/modules/db.php): failed to open stream: No such file or directory in /home/webdes28/public_html/index.php on line 9
+[14-Jun-2020 22:38:30 Asia/Tehran] PHP Warning:  readfile( /home/webdes28/public_html/templates/modules/db.php): failed to open stream: No such file or directory in /home/webdes28/public_html/index.php on line 9
+[14-Jun-2020 22:39:28 Asia/Tehran] PHP Warning:  readfile( /home/webdes28/public_html/templates/modules/db.php): failed to open stream: No such file or directory in /home/webdes28/public_html/index.php on line 10
+[14-Jun-2020 22:39:55 Asia/Tehran] PHP Warning:  readfile(/templates/modules/db.php): failed to open stream: No such file or directory in /home/webdes28/public_html/index.php on line 10
+[14-Jun-2020 22:40:08 Asia/Tehran] PHP Warning:  readfile(templates/modules/db.php): failed to open stream: No such file or directory in /home/webdes28/public_html/index.php on line 10
+[14-Jun-2020 22:55:21 Asia/Tehran] PHP Warning:  include_once(public_html/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 41
+[14-Jun-2020 22:55:21 Asia/Tehran] PHP Warning:  include_once(): Failed opening 'public_html/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 41
+[14-Jun-2020 22:55:21 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(44): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[14-Jun-2020 22:55:25 Asia/Tehran] PHP Warning:  include_once(public_html/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 41
+[14-Jun-2020 22:55:25 Asia/Tehran] PHP Warning:  include_once(): Failed opening 'public_html/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 41
+[14-Jun-2020 22:55:25 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(44): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 12:43:21 Asia/Tehran] PHP Warning:  include_once(/home/webdes28/public_html/lib/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 43
+[15-Jun-2020 12:43:21 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/home/webdes28/public_html/lib/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 43
+[15-Jun-2020 12:43:21 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(47): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 12:43:24 Asia/Tehran] PHP Warning:  include_once(/home/webdes28/public_html/lib/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 43
+[15-Jun-2020 12:43:24 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/home/webdes28/public_html/lib/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 43
+[15-Jun-2020 12:43:24 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(47): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 12:43:25 Asia/Tehran] PHP Warning:  include_once(/home/webdes28/public_html/lib/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 43
+[15-Jun-2020 12:43:25 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/home/webdes28/public_html/lib/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 43
+[15-Jun-2020 12:43:25 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(47): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:23:49 Asia/Tehran] PHP Warning:  include_once(/lib/../templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:23:49 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/lib/../templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:23:49 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:24:39 Asia/Tehran] PHP Warning:  include_once(../templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:24:39 Asia/Tehran] PHP Warning:  include_once(): Failed opening '../templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:24:39 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:24:41 Asia/Tehran] PHP Warning:  include_once(../templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:24:41 Asia/Tehran] PHP Warning:  include_once(): Failed opening '../templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:24:41 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:24:41 Asia/Tehran] PHP Warning:  include_once(../templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:24:41 Asia/Tehran] PHP Warning:  include_once(): Failed opening '../templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:24:41 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:24:42 Asia/Tehran] PHP Warning:  include_once(../templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:24:42 Asia/Tehran] PHP Warning:  include_once(): Failed opening '../templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:24:42 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:24:58 Asia/Tehran] PHP Warning:  include_once(/../templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:24:58 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/../templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:24:58 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:24:59 Asia/Tehran] PHP Warning:  include_once(/../templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:24:59 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/../templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:24:59 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:25:00 Asia/Tehran] PHP Warning:  include_once(/../templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:25:00 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/../templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:25:00 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:25:35 Asia/Tehran] PHP Warning:  include_once(/../templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:25:35 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/../templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:25:35 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:25:37 Asia/Tehran] PHP Warning:  include_once(/../templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:25:37 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/../templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:25:37 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:26:24 Asia/Tehran] PHP Warning:  include_once(dirname(__DIR__)./templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:26:24 Asia/Tehran] PHP Warning:  include_once(): Failed opening 'dirname(__DIR__)./templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:26:24 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:27:47 Asia/Tehran] PHP Warning:  include_once(dirname(__DIR__).'/templates/modules/home.php'): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:27:47 Asia/Tehran] PHP Warning:  include_once(): Failed opening 'dirname(__DIR__).'/templates/modules/home.php'' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:27:47 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:28:35 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function modules_include() in /home/webdes28/public_html/lib/modules.php:44
+Stack trace:
+#0 /home/webdes28/public_html/index.php(7): load_module()
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:33 Asia/Tehran] PHP Warning:  include_once(/home/webdes28/public_html/lib/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:33 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/home/webdes28/public_html/lib/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:33 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:30:34 Asia/Tehran] PHP Warning:  include_once(/home/webdes28/public_html/lib/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:34 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/home/webdes28/public_html/lib/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:34 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:30:35 Asia/Tehran] PHP Warning:  include_once(/home/webdes28/public_html/lib/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:35 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/home/webdes28/public_html/lib/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:35 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:30:35 Asia/Tehran] PHP Warning:  include_once(/home/webdes28/public_html/lib/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:35 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/home/webdes28/public_html/lib/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:35 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:30:36 Asia/Tehran] PHP Warning:  include_once(/home/webdes28/public_html/lib/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:36 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/home/webdes28/public_html/lib/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:36 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:30:37 Asia/Tehran] PHP Warning:  include_once(/home/webdes28/public_html/lib/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:37 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/home/webdes28/public_html/lib/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:37 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:30:38 Asia/Tehran] PHP Warning:  include_once(/home/webdes28/public_html/lib/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:38 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/home/webdes28/public_html/lib/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:30:38 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:33:02 Asia/Tehran] PHP Warning:  include_once(../../templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:33:02 Asia/Tehran] PHP Warning:  include_once(): Failed opening '../../templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:33:02 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:33:37 Asia/Tehran] PHP Warning:  include_once(/localhost/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:33:37 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/localhost/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:33:37 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:33:38 Asia/Tehran] PHP Warning:  include_once(/localhost/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:33:38 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/localhost/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:33:38 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:33:39 Asia/Tehran] PHP Warning:  include_once(/localhost/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:33:39 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/localhost/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:33:39 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:34:20 Asia/Tehran] PHP Warning:  include_once(/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:34:20 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:34:20 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:35:14 Asia/Tehran] PHP Warning:  include_once(/home/webdes28/public_html/lib/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:35:14 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/home/webdes28/public_html/lib/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:35:14 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:36:52 Asia/Tehran] PHP Warning:  include_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:36:52 Asia/Tehran] PHP Warning:  include_once(http://web-designer-center.ir/templates/modules/home.php): failed to open stream: no suitable wrapper could be found in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:36:52 Asia/Tehran] PHP Warning:  include_once(): Failed opening 'http://web-designer-center.ir/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:36:52 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:37:44 Asia/Tehran] PHP Warning:  include_once(.:/usr/lib/php:/usr/local/lib/php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:37:44 Asia/Tehran] PHP Warning:  include_once(): Failed opening '.:/usr/lib/php:/usr/local/lib/php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:37:44 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:37:45 Asia/Tehran] PHP Warning:  include_once(.:/usr/lib/php:/usr/local/lib/php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:37:45 Asia/Tehran] PHP Warning:  include_once(): Failed opening '.:/usr/lib/php:/usr/local/lib/php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:37:45 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:37:47 Asia/Tehran] PHP Warning:  include_once(.:/usr/lib/php:/usr/local/lib/php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:37:47 Asia/Tehran] PHP Warning:  include_once(): Failed opening '.:/usr/lib/php:/usr/local/lib/php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:37:47 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:37:48 Asia/Tehran] PHP Warning:  include_once(.:/usr/lib/php:/usr/local/lib/php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:37:48 Asia/Tehran] PHP Warning:  include_once(): Failed opening '.:/usr/lib/php:/usr/local/lib/php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:37:48 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:38:33 Asia/Tehran] PHP Warning:  include_once(local/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:38:33 Asia/Tehran] PHP Warning:  include_once(): Failed opening 'local/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:38:33 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:41:47 Asia/Tehran] PHP Warning:  include_once(local/templates/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:41:47 Asia/Tehran] PHP Warning:  include_once(): Failed opening 'local/templates/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:41:47 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:44:49 Asia/Tehran] PHP Warning:  include_once(/modules/home.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:44:49 Asia/Tehran] PHP Warning:  include_once(): Failed opening '/modules/home.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 44
+[15-Jun-2020 13:44:49 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(48): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[15-Jun-2020 13:48:04 Asia/Tehran] PHP Warning:  include_once(../templates/header.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 11
+[15-Jun-2020 13:48:04 Asia/Tehran] PHP Warning:  include_once(): Failed opening '../templates/header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 11
+[15-Jun-2020 13:48:04 Asia/Tehran] PHP Warning:  include_once(../templates/footer.php): failed to open stream: No such file or directory in /home/webdes28/public_html/lib/modules.php on line 19
+[15-Jun-2020 13:48:04 Asia/Tehran] PHP Warning:  include_once(): Failed opening '../templates/footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webdes28/public_html/lib/modules.php on line 19
+[15-Jun-2020 14:28:50 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/webdes28/public_html/lib/users.php:37
+Stack trace:
+#0 /home/webdes28/public_html/lib/auth.php(81): get_user('admin')
+#1 /home/webdes28/public_html/templates/modules/login.php(88): user_login('admin', 'admin')
+#2 /home/webdes28/public_html/lib/modules.php(5): process_inputs()
+#3 /home/webdes28/public_html/lib/modules.php(43): render_page()
+#4 /home/webdes28/public_html/index.php(7): load_module()
+#5 {main}
+  thrown in /home/webdes28/public_html/lib/users.php on line 37
+[15-Jun-2020 15:54:18 Asia/Tehran] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/webdes28/public_html/templates/modules/login.php on line 66
+[15-Jun-2020 16:07:08 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 27
+[15-Jun-2020 16:07:09 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 27
+[15-Jun-2020 16:08:39 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 29
+[15-Jun-2020 16:08:39 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 29
+[15-Jun-2020 16:08:40 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 29
+[15-Jun-2020 16:08:41 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 29
+[15-Jun-2020 16:10:08 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 102
+[15-Jun-2020 16:10:09 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 102
+[15-Jun-2020 16:10:10 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 102
+[15-Jun-2020 16:10:10 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 102
+[15-Jun-2020 16:10:10 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 102
+[15-Jun-2020 16:10:11 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 102
+[15-Jun-2020 16:11:10 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 103
+[15-Jun-2020 16:11:10 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 103
+[15-Jun-2020 16:11:50 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 104
+[15-Jun-2020 16:11:50 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 104
+[15-Jun-2020 16:11:53 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 104
+[15-Jun-2020 16:11:53 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 104
+[15-Jun-2020 16:12:19 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 105
+[15-Jun-2020 16:12:19 Asia/Tehran] PHP Fatal error:  Can't use function return value in write context in /home/webdes28/public_html/lib/auth.php on line 105
+[16-Jun-2020 18:32:04 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/webdes28/public_html/lib/pages.php:112) in /home/webdes28/public_html/lib/functions.php on line 38
+[16-Jun-2020 20:05:41 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/webdes28/public_html/templates/modules/edit-pages.php on line 79
+[16-Jun-2020 21:58:31 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/webdes28/public_html/lib/pages.php on line 261
+[16-Jun-2020 21:58:32 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/webdes28/public_html/lib/pages.php on line 261
+[18-Jun-2020 16:50:04 Asia/Tehran] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function update_page_by_id(), 6 passed in /home/webdes28/public_html/lib/pages.php on line 213 and exactly 7 expected in /home/webdes28/public_html/lib/pages.php:126
+Stack trace:
+#0 /home/webdes28/public_html/lib/pages.php(213): update_page_by_id('8', '\xD8\xAF\xD8\xB1\xD8\xA8\xD8\xA7\xD8\xB1\xD9\x87 ', 'contact', '<p>\xD8\xA8\xD8\xB1\xDA\xAF\xD9\x87 \xD8\xAF\xD8...', NULL, 1)
+#1 /home/webdes28/public_html/templates/modules/edit-pages.php(66): hide_page('8')
+#2 /home/webdes28/public_html/lib/modules.php(5): process_inputs()
+#3 /home/webdes28/public_html/lib/modules.php(53): render_page()
+#4 /home/webdes28/public_html/index.php(7): load_module()
+#5 {main}
+  thrown in /home/webdes28/public_html/lib/pages.php on line 126
+[18-Jun-2020 18:09:47 Asia/Tehran] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function update_page_by_id(), 6 passed in /home/webdes28/public_html/lib/pages.php on line 213 and exactly 7 expected in /home/webdes28/public_html/lib/pages.php:126
+Stack trace:
+#0 /home/webdes28/public_html/lib/pages.php(213): update_page_by_id('8', '\xD8\xAF\xD8\xB1\xD8\xA8\xD8\xA7\xD8\xB1\xD9\x87 \xD9\x85...', 'contact', '<p>\xD8\xA8\xD8\xB1\xDA\xAF\xD9\x87 \xD8\xAF\xD8...', NULL, 1)
+#1 /home/webdes28/public_html/templates/modules/edit-pages.php(66): hide_page('8')
+#2 /home/webdes28/public_html/lib/modules.php(5): process_inputs()
+#3 /home/webdes28/public_html/lib/modules.php(53): render_page()
+#4 /home/webdes28/public_html/index.php(7): load_module()
+#5 {main}
+  thrown in /home/webdes28/public_html/lib/pages.php on line 126
+[18-Jun-2020 18:15:38 Asia/Tehran] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_page(), 3 passed in /home/webdes28/public_html/index.php on line 9 and at least 5 expected in /home/webdes28/public_html/lib/pages.php:106
+Stack trace:
+#0 /home/webdes28/public_html/index.php(9): add_page('about', 'about-us', 'about page')
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/pages.php on line 106
+[18-Jun-2020 18:15:45 Asia/Tehran] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_page(), 3 passed in /home/webdes28/public_html/index.php on line 9 and at least 5 expected in /home/webdes28/public_html/lib/pages.php:106
+Stack trace:
+#0 /home/webdes28/public_html/index.php(9): add_page('about', 'about-us', 'about page')
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/pages.php on line 106
+[18-Jun-2020 18:15:45 Asia/Tehran] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_page(), 3 passed in /home/webdes28/public_html/index.php on line 9 and at least 5 expected in /home/webdes28/public_html/lib/pages.php:106
+Stack trace:
+#0 /home/webdes28/public_html/index.php(9): add_page('about', 'about-us', 'about page')
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/pages.php on line 106
+[18-Jun-2020 18:15:46 Asia/Tehran] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_page(), 3 passed in /home/webdes28/public_html/index.php on line 9 and at least 5 expected in /home/webdes28/public_html/lib/pages.php:106
+Stack trace:
+#0 /home/webdes28/public_html/index.php(9): add_page('about', 'about-us', 'about page')
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/pages.php on line 106
+[18-Jun-2020 18:16:41 Asia/Tehran] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_page(), 3 passed in /home/webdes28/public_html/index.php on line 9 and at least 5 expected in /home/webdes28/public_html/lib/pages.php:106
+Stack trace:
+#0 /home/webdes28/public_html/index.php(9): add_page('about', 'about-us', 'about page')
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/pages.php on line 106
+[18-Jun-2020 18:16:42 Asia/Tehran] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_page(), 3 passed in /home/webdes28/public_html/index.php on line 9 and at least 5 expected in /home/webdes28/public_html/lib/pages.php:106
+Stack trace:
+#0 /home/webdes28/public_html/index.php(9): add_page('about', 'about-us', 'about page')
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/pages.php on line 106
+[18-Jun-2020 18:16:42 Asia/Tehran] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_page(), 3 passed in /home/webdes28/public_html/index.php on line 9 and at least 5 expected in /home/webdes28/public_html/lib/pages.php:106
+Stack trace:
+#0 /home/webdes28/public_html/index.php(9): add_page('about', 'about-us', 'about page')
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/pages.php on line 106
+[18-Jun-2020 18:16:44 Asia/Tehran] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_page(), 3 passed in /home/webdes28/public_html/index.php on line 9 and at least 5 expected in /home/webdes28/public_html/lib/pages.php:106
+Stack trace:
+#0 /home/webdes28/public_html/index.php(9): add_page('about', 'about-us', 'about page')
+#1 {main}
+  thrown in /home/webdes28/public_html/lib/pages.php on line 106
+[18-Jun-2020 18:30:52 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/webdes28/public_html/templates/modules/new.php:90) in /home/webdes28/public_html/lib/functions.php on line 38
+[18-Jun-2020 18:36:15 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/webdes28/public_html/lib/pages.php:112) in /home/webdes28/public_html/lib/functions.php on line 38
+[18-Jun-2020 18:51:56 Asia/Tehran] PHP Warning:  Illegal string offset 'id' in /home/webdes28/public_html/templates/modules/new.php on line 98
+[18-Jun-2020 18:51:56 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/webdes28/public_html/templates/modules/new.php:90) in /home/webdes28/public_html/lib/functions.php on line 38
+[18-Jun-2020 18:55:47 Asia/Tehran] PHP Warning:  Illegal string offset 'id' in /home/webdes28/public_html/templates/modules/new.php on line 97
+[18-Jun-2020 18:55:47 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/webdes28/public_html/templates/modules/new.php:89) in /home/webdes28/public_html/lib/functions.php on line 38
+[18-Jun-2020 19:03:01 Asia/Tehran] PHP Warning:  Illegal string offset 'id' in /home/webdes28/public_html/templates/modules/new.php on line 97
+[18-Jun-2020 19:03:01 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/webdes28/public_html/templates/modules/new.php:89) in /home/webdes28/public_html/lib/functions.php on line 38
+[18-Jun-2020 19:04:33 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/webdes28/public_html/lib/pages.php:112) in /home/webdes28/public_html/lib/functions.php on line 38
+[18-Jun-2020 19:06:06 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/webdes28/public_html/templates/modules/new.php:89) in /home/webdes28/public_html/lib/functions.php on line 38
+[18-Jun-2020 20:57:13 Asia/Tehran] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/webdes28/public_html/templates/modules/edit.php on line 96
+[18-Jun-2020 20:58:18 Asia/Tehran] PHP Fatal error:  Cannot use [] for reading in /home/webdes28/public_html/templates/modules/edit.php on line 96
+[18-Jun-2020 21:31:49 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(53): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[18-Jun-2020 21:33:31 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /home/webdes28/public_html/templates/header.php:8
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(11): include_once()
+#1 /home/webdes28/public_html/lib/modules.php(53): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/header.php on line 8
+[20-Jun-2020 16:23:51 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_general_password() in /home/webdes28/public_html/templates/modules/new-user.php:43
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(16): get_content()
+#1 /home/webdes28/public_html/lib/modules.php(53): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/modules/new-user.php on line 43
+[20-Jun-2020 16:27:22 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_general_password() in /home/webdes28/public_html/templates/modules/new-user.php:43
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(16): get_content()
+#1 /home/webdes28/public_html/lib/modules.php(53): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/modules/new-user.php on line 43
+[20-Jun-2020 16:29:12 Asia/Tehran] PHP Warning:  move_uploaded_file(images/mypic.jpg): failed to open stream: No such file or directory in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 129
+[20-Jun-2020 16:29:12 Asia/Tehran] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phptFA3Sc' to 'images/mypic.jpg' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 129
+[20-Jun-2020 17:50:25 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/webdes28/public_html/templates/modules/login.php:50) in /home/webdes28/public_html/lib/functions.php on line 38
+[20-Jun-2020 19:10:16 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_general_password() in /home/webdes28/public_html/templates/modules/new-user.php:43
+Stack trace:
+#0 /home/webdes28/public_html/lib/modules.php(16): get_content()
+#1 /home/webdes28/public_html/lib/modules.php(53): render_page()
+#2 /home/webdes28/public_html/index.php(7): load_module()
+#3 {main}
+  thrown in /home/webdes28/public_html/templates/modules/new-user.php on line 43
+[20-Jun-2020 19:13:51 Asia/Tehran] PHP Warning:  move_uploaded_file(images/background1.jpg): failed to open stream: No such file or directory in /home/webdes28/public_html/templates/modules/new-user.php on line 114
+[20-Jun-2020 19:13:51 Asia/Tehran] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpBatRQA' to 'images/background1.jpg' in /home/webdes28/public_html/templates/modules/new-user.php on line 114
+[21-Jun-2020 12:24:38 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::queries() in /home/webdes28/public_html/lib/users.php:88
+Stack trace:
+#0 /home/webdes28/public_html/templates/modules/one-user-edit.php(161): update_user(Array)
+#1 /home/webdes28/public_html/lib/modules.php(5): process_inputs()
+#2 /home/webdes28/public_html/lib/modules.php(53): render_page()
+#3 /home/webdes28/public_html/index.php(7): load_module()
+#4 {main}
+  thrown in /home/webdes28/public_html/lib/users.php on line 88
+[21-Jun-2020 12:33:02 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'd2dba4612c63906a9bb59652c30d63' (T_STRING) in /home/webdes28/public_html/lib/users.php on line 70
+[21-Jun-2020 12:33:03 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'd2dba4612c63906a9bb59652c30d63' (T_STRING) in /home/webdes28/public_html/lib/users.php on line 70
+[21-Jun-2020 14:31:50 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:31:50 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:31:50 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:31:50 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:31:50 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:31:50 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:31:50 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:31:50 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:33:19 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Illegal string offset 'img_name' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:35:05 Asia/Tehran] PHP Warning:  Cannot assign an empty string to a string offset in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 152
+[21-Jun-2020 14:36:26 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 151
+[21-Jun-2020 14:40:02 Asia/Tehran] PHP Warning:  move_uploaded_file(): The second argument to copy() function cannot be a directory in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 163
+[21-Jun-2020 14:40:02 Asia/Tehran] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpK0hx0d' to 'uploads/' in /home/webdes28/public_html/templates/modules/one-user-edit.php on line 163
